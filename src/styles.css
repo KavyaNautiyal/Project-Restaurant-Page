@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+      background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2FdvbKFz3.jpg&f=1&nofb=1&ipt=866b2103a347fb59387bd927a2ee50d08dc9557ec7bf0c6eb79b66cdf6b06b2b&ipo=images')
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.all-btn{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 45px;
+
+}
+
+.home,.menu,.contant {
+    padding: 15px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    max-width: 550px;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px auto;
+    border: 2px solid black;
+    gap: 16px;
+    padding: 45px;
+    border-radius: 5px; 
+   background: rgba(0, 0, 0, 0.35); 
+    backdrop-filter: blur(12px);          
+    -webkit-backdrop-filter: blur(12px);  
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 12px;
+    color: white;
+    
+    
+}
+
+.home-btn{
+    padding: 15px;
+    max-width: 200px;
+    cursor: pointer;
+
+
+}
+.content-info{
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+    justify-content: center;
+     align-items: center;
+    max-width: 550px;
+    background: rgba(0, 0, 0, 0.35); 
+    backdrop-filter: blur(12px);          
+    -webkit-backdrop-filter: blur(12px);  
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 12px;
+    padding: 45px;
+    color: white;
+}
+.button{
+    display: flex;
+    gap: 20px;
+}
+
+
+.contact,.login{
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+     background-color: blue;
+     border-radius: 25px;
+     border: none;
+}
+
+.menu-grid-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.card-img{
+     width: 200px;
+     height: 150px;
+     
+     object-fit: cover;
+     margin-bottom: 15px;
+}
+.menu-card{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 30px;
+    max-width: 550px;
+    background-color: gray;
+}
+.menu-title{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.all-wrap{
+    background-color: gray;
+    padding: 25px;
+}
